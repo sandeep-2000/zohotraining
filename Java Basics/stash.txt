@@ -1,1 +1,2 @@
-hello stash
+hello stash i am doing changes to u for merging the branch
+please tell me if ur merged or not
