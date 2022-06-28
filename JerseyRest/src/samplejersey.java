@@ -1,16 +1,15 @@
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.sql.*;
 import java.lang.*;
+import java.util.Properties;
+
 public class samplejersey {
     public static void main(String args[]) {
-        String host = "localhost";
-        String port = "5432";
-        String db_name = "postgres";
-        String username = "postgres";
-        String password = "Aloney@311220-";
+
         int id=1244;
         int age=98;
         String name="latha";
@@ -18,8 +17,7 @@ public class samplejersey {
 
         String query = "insert into \"sampleTable\" values(?,?,?,?)";
         try {
-            Class.forName("org.postgresql.Driver");
-            Connection con = DriverManager.getConnection("jdbc:postgresql://" + host + ":" + port + "/" + db_name + "", "" + username + "", "" + password + "");
+            Connection con=Database_Connection.connect();
             if (con != null) {
                 System.out.println("Connection Ok");
                 PreparedStatement st = con.prepareStatement(query);

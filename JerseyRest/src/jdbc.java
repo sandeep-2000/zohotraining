@@ -5,7 +5,7 @@ public class jdbc {
     public static void main(String args[]){
         StudentData data=new StudentData();
         Student s1=data.getStudent();
-//        System.out.println(s1.name);
+        System.out.println(s1.name);
 
     }
 }

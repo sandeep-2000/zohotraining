@@ -1,42 +1,32 @@
 import javax.swing.*;
+import java.io.InputStream;
 import java.sql.*;
 import java.lang.*;
+import java.util.Properties;
+
 public class JdbcInsert {
+    private static Connection con;
     public static void main(String args[]){
         Student_Data data=new Student_Data();
         //Student s1=data.getStudent(430);
         Student_s s2=new Student_s();
-        s2.id=443;
-        s2.name="Prudvi";
-        s2.address="Erra light Kompa";
-        s2.age=34;
-        s2.salary=40;
-        data.connect();
-        data.add_details(s2);
+        s2.id=401;
+        s2.name="HERO";
+        s2.address="chennai";
+        s2.age=38;
+        s2.salary=45675;
+        con = Database_Connection.connect();
+        data.add_details(con, s2);
         //System.out.println(s1.name);
 
     }
 }
 class Student_Data{
-    Connection con=null;
-    String host = "localhost";
-    String port = "5432";
-    String db_name = "postgres";
-    String username = "postgres";
-    String password = "Aloney@311220-";
-    public void connect(){
-        try {
-            Class.forName("org.postgresql.Driver");
-            con = DriverManager.getConnection("jdbc:postgresql://" + host + ":" + port + "/" + db_name + "", "" + username + "", "" + password + "");
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-
-    }
 
 
 
-//    public Student getStudent(int id) {
+
+    //    public Student getStudent(int id) {
 //        try {
 //            //String query="select name from student where id="+id;
 //
@@ -59,7 +49,7 @@ class Student_Data{
 //        }
 //        return null;
 //    }
-    public void add_details(Student_s s){
+    public void add_details(Connection con, Student_s s){
         String query="insert into student values(?,?,?,?,?)";
         PreparedStatement st;
         try{

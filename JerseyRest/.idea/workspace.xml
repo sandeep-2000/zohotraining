@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26edb44a-cfe7-41d0-81ce-afeea6d44ff1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JerseyRest/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database_Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JerseyRest/JdbcInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JerseyRest/JdbcInsert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JerseyRest/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JerseyRest/Student_Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JerseyRest/Student_Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JerseyRest/Student_s.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JerseyRest/Student_s.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JerseyRest/jdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JerseyRest/jdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JerseyRest/samplejersey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JdbcInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JdbcInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/samplejersey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/samplejersey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../how" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BBv35kVR6oDSLZqQFWxejwSMkV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/sandeep-14631/Downloads/postgresql-42.4.0.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files\Java\jdk1.8.0_291\jre\lib\" />
+      <recent name="C:\Program Files\Java\jdk1.8.0_291\jre\lib\plugin.jar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sandeep-14631\IdeaProjects\JerseyRest\out\production\JerseyRest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.samplejersey">
+    <configuration name="JdbcInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JdbcInsert" />
+      <module name="JerseyRest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="samplejersey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="samplejersey" />
+      <module name="JerseyRest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.samplejersey" />
+        <item itemvalue="Application.JdbcInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26edb44a-cfe7-41d0-81ce-afeea6d44ff1" name="Changes" comment="" />
+      <created>1656392091009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656392091009</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
